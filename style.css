@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Kushan;
+  src: url(/font/KaushanScript-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.main-palatte {
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
+.palatte-item {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+.item-1 {
+  background-color: #b32ed4;
+}
+
+.item-2 {
+  background-color: #2ed465;
+}
+
+.item-3 {
+  background-color: #2e47d4;
+}
+
+.item-4 {
+  background-color: #aad42e;
+}
+
+.item-5 {
+  background-color: #d42e76;
+}
+
+.color-code {
+  padding: 30%;
+  color: white;
+  font-weight: bold;
+}
+
+.color-selector {
+  padding: 10%;
+  display: block;
+  color: white;
+}
+
+.color-lock {
+  padding: 10%;
+  display: block;
+  color: white;
+}
+
+.palatte-settings {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.palatte-settings i {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
