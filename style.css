@@ -11,8 +11,10 @@ body {
   font-size: 20px;
 }
 
+/* Color Palatte */
+
 .main-palatte {
-  height: 60%;
+  height: 65%;
   width: 100%;
   display: flex;
 }
@@ -23,43 +25,65 @@ body {
   text-align: center;
 }
 
-.item-1 {
-  background-color: #b32ed4;
-}
-
-.item-2 {
-  background-color: #2ed465;
-}
-
-.item-3 {
-  background-color: #2e47d4;
-}
-
-.item-4 {
-  background-color: #aad42e;
-}
-
-.item-5 {
-  background-color: #d42e76;
-}
-
 .color-code {
-  padding: 30%;
+  padding: 20% 10%;
   color: white;
   font-weight: bold;
 }
 
 .color-selector {
-  padding: 10%;
+  padding: 5%;
   display: block;
   color: white;
 }
 
 .color-lock {
-  padding: 10%;
+  padding: 5% 5% 15% 5%;
   display: block;
   color: white;
 }
+
+/* Color Slider */
+
+.color-slider {
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 12px;
+  color: gray;
+  margin: auto;
+  width: 70%;
+}
+
+.close-button {
+  float: right;
+  font-size: 12px;
+  color: gray;
+  background-color: transparent;
+  border: 0px;
+  position: relative;
+  bottom: 5px;
+  left: 7px;
+}
+
+.single-slider {
+  margin-top: 10px;
+}
+.input-text {
+  margin: 0;
+  float: left;
+}
+
+/* styling input range */
+.color-input {
+  width: 100%;
+  -webkit-appearance: none;
+  background: transparent;
+  border-radius: 10px;
+  height: 10px;
+  margin-top: 10px;
+}
+/* Palatte Settings */
 
 .palatte-settings {
   display: flex;
